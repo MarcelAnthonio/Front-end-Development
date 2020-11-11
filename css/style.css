@@ -1,0 +1,655 @@
+body{
+    background-color: #f4f4f4;
+    color: #555;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.6em;
+    margin: 0;
+}
+
+p {
+    display: block;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+a:hover{
+    color: coral;
+}
+
+a:active{
+    color: red;
+}
+
+blockquote{
+    font-style: italic;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+/* main-header */
+#main-header{
+    background-color: coral;
+    width: 100%;
+
+
+}
+
+#logo img{
+    width:30%;
+    padding: 3px;
+}
+
+.navigation{
+    position: relative;
+    float: right;
+    padding-right: 60px;
+    width: 100%;
+    background-color: #333;
+    border-top: 1px solid #fff;
+    box-shadow: 5px 10px 8px #0000005e;
+}
+
+/* navigation*/
+
+#navbar{
+    width: 100%;
+    font-size: 20px;
+    float: left;
+
+}
+
+#navbar li{
+    position: relatives;
+    display: block;
+}
+
+#navbar a{
+    float: left;
+    padding: 10px 0;
+    text-decoration: none;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 5px;
+    margin-left: 0; 
+    margin-right: 25px;
+    width: 120px;
+}
+
+#navbar a:hover {
+    color: #fff;
+    background-color: coral;
+    width: 120px;
+    text-align: center;
+
+ 
+}
+
+/* showcase */
+
+#bigshowcase{
+    background-image: url('../images/Lebanese-Cuisine.jpg');
+    background-position: center right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 30px;
+}
+
+#bigshowcase-overons{
+    background-image: url('../images/showcase-overons.jpg');
+    background-position: center right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 30px;
+    height: 400px;
+
+}
+
+#showcase{
+    width: 80%;
+    margin: 0 auto;
+}
+
+#showcase h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #fff;
+    text-shadow: 0 6px 8px coral; 
+    font-size: 60px;
+    font-weight: bolder;
+    line-height: 1.0em;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 30px;
+  
+}
+
+#showcase .my-search{
+    position: relative;
+    float: left;
+    width: 40%;
+    padding: 5px;
+    margin: 10px;
+    background-color: #fff;
+    
+}
+
+#searching{
+    width: 100%;
+    border: 0px solid #000;
+    text-align: center;
+
+}
+
+#showcase .my-meal{
+    position: relative;
+    float: left;
+    width: 18%;
+    padding: 5px;
+    margin: 5px;
+    text-align: left;
+}
+
+.my-meal #meals{
+    width: 100%;
+    border: 0px solid #000;
+    text-align: center;
+    min-height: 35px;
+}
+
+#showcase .my-dishes{
+    position: relative;
+    float: left;
+    width: 18%;
+    padding: 5px;
+    margin: 5px;
+    text-align: left;
+}
+
+.my-dishes #dishes{
+    width: 100%;
+    border: 0px solid #000;
+    text-align: center;
+    min-height: 35px;
+}
+
+#showcase .button{
+    position: relative;
+    float: left;
+    background-color: rgb(252, 82, 21);
+    min-height: 35px;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+    margin: 10px 0 0 10px;
+}
+
+input[type=submit]:hover {
+    background-color: #fca686;
+}
+
+.send-button #send{
+    border: 0px solid #000;
+    text-align: center;
+    width: 120px;
+}
+
+
+/* main content */
+#main{
+    position: relative;
+    float: left;
+    width: 70%;
+    padding-bottom: 30px;
+}
+
+#main h1{
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-size: 36px;
+color: rgb(252, 82, 21);
+line-height: 1.4em;
+}
+
+.main h2{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 26px
+}
+
+#main-overons{
+    position: relative;
+    float: left;
+    width: 70%;
+    padding-bottom: 30px;
+}
+
+#main-overons h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 36px;
+    color: rgb(252, 82, 21);
+    line-height: 1.4em;
+    }
+
+/* sidebar */
+#sidebar{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:#fff;
+    position: relative;
+    float: right;
+    margin-top: 50px;
+    background: #ccc;
+    color:#fff;
+    border: 0px black solid;
+    box-sizing: border-box;
+    width: 22%;
+    height: auto;
+}
+.sidebar-header{
+    float: left;
+    width: 100%;
+    background: rgb(252, 82, 21);
+}
+
+#sidebar h1{
+    text-align: center;
+}
+
+#sidebar h3{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+    color: rgb(252, 82, 21);
+    margin-left: 20px;
+    margin-top: 80px;
+}
+
+#sidebar li{
+    list-style-image: url('../images/check.png');
+    padding: 5px;
+    text-decoration: none;
+}
+
+
+/* sidebar over ons*/
+#sidebar-2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:#fff;
+    position: relative;
+    float: right;
+    margin-top: 50px;
+    background: #ccc;
+    color:#fff;
+    border: 0px black solid;
+    box-sizing: border-box;
+    width: 22%;
+    height: auto;
+}
+.sidebar-header-2{
+    float: left;
+    width: 100%;
+    background: rgb(252, 82, 21);
+}
+
+#sidebar-2 h1{
+    text-align: center;
+}
+
+#sidebar-2 h2{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+    color: rgb(252, 82, 21);
+    margin-left: 20px;
+    margin-top: 80px;
+}
+
+#sidebar-2 p{
+    list-style: none;
+    margin: 25px;
+    text-decoration: none;
+}
+
+
+
+
+
+.center {
+    width: 95%;
+    height: 300px;
+}
+
+.blocks{
+    position: relative;
+    float: none;
+    width: 100%;
+}
+
+.blocks #h3{
+    width: 50%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+    font-weight: bold;
+    color :rgb(162, 149, 149);
+}
+
+.blocks p{
+width: 90%;
+} 
+
+
+#hoofdgerechten{
+    float: left;
+    width: 25%;
+    padding-bottom: 60px; 
+}
+
+#voorgerechten{
+    width: 25%;
+    float: left;
+    word-break: normal;
+}
+
+#nagerechten{
+    width: 25%;
+    float: left;
+    word-break: normal;
+}
+
+.keukengerei{
+    width: 25%;
+    position: relative;
+    float: right;
+    padding-right: 15px;
+    padding-top: 20px;
+}
+
+#hoofd{
+    float: left;
+}
+
+#voor{
+    float: left;
+}
+
+#na{
+    float: left;
+}
+
+#banner {
+    position: relative;
+    background-color: green;
+    height: 150px;
+    margin: 0;
+    margin-left: 10%;
+    margin-right: auto;
+    width: 59%;
+  } 
+
+#banner h1{
+      text-align: center;
+      padding-top: 20px;
+      color: #fff;
+  }
+  
+.search {
+    position: absolute;
+    margin: 0 25%;
+    background-color: #fff;
+    border: 0px solid #73AD21;
+    height: 35px;
+    min-width: 20%;
+
+}
+
+#label{
+    height: 35px;
+    border: 0px solid #000;
+    min-width: 450px;
+    text-align: center;
+
+} 
+
+.search-button .button2 {
+    position: absolute;
+    float: right;
+    margin: 0 67%;
+    background-color: rgb(252, 82, 21);
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+    border: 0px solid #73AD21;
+    height: 38px;
+    cursor: pointer;
+}
+
+input[type=submit-2]:hover {
+    background-color: #fca686;
+}
+
+.main-footer{
+    position: relative;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+    background-color: #333;
+    color: #fff;
+    text-align: left;
+    margin-top: 284px;
+
+}
+
+#copy{
+    float: left;
+    margin-top: 80px;
+}
+
+#social{
+    float: right;
+    margin-top: 80px;
+}
+
+.fa {
+    padding: 15px;
+    font-size: 10px;
+    width: 8px;
+    height: 8px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+.fa:hover {
+      opacity: 0.7;
+      color: #fff;
+  }
+  
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
+
+/* @media (max-width:600px)*/
+
+@media (max-width:600px){
+
+    #logo img{
+        width:75%;
+        padding: 0;
+    }
+
+#navbar {
+     width: 100%;
+}
+
+#navbar a {
+     width: 100%; 
+     float: none;
+     margin: 0 20px;
+}
+
+#navbar a:hover {
+     width: 100%;
+     float: none;
+     padding: 0;
+}
+
+#showcase-test {
+    width: 100%; 
+    float: none;
+}
+
+#showcase{
+    float: none;
+}
+
+#showcase h1{
+    width: 100%; 
+    float: none;
+    padding: 0;
+    font-size: 50px;
+}
+
+#showcase .my-search{
+    width: 97%; 
+    float: none;
+}
+  
+#showcase .my-meal{
+    width: 100%; 
+    float: none;
+}
+
+#showcase .my-dishes{
+    width: 100%; 
+    float: none;
+}
+
+.my-meal #meals{
+    width: 97%;
+    border: 0px solid #000;
+    text-align: center;
+    min-height: 35px;
+    padding-right: 15px;
+}
+
+.my-dishes #dishes{
+    width: 97%;
+    border: 0px solid #000;
+    text-align: center;
+    min-height: 35px;
+}
+
+.send-button #send{
+    width: 100%; 
+    float: none;;
+}
+
+#bigshowcase{
+    background-image: url('../images/showcase.jpg');
+    background-position: center right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 30px;
+    float: none;
+}
+
+#bigshowcase-overons{
+    background-position-y: center;
+    background-position-x: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 120px;
+
+    float: none;
+}
+
+#main{
+    width: 100%;
+    float: none;
+}
+
+#main-overons{
+    width: 100%;
+    float: none;
+
+}
+
+#sidebar{
+    width: 100%;
+    float: none;
+}
+
+#sidebar-header{
+     width: 100%;
+     float: none;
+     height: 35px;
+}
+
+#sidebar-2{
+    width: 100%;
+    float: none;
+}
+
+#sidebar-header-2{
+     width: 100%;
+     float: none;
+     height: 35px;
+}
+
+.blocks{
+     width: 100%;
+     float: none;
+}
+#hoofdgerechten{
+    width: 100%;
+    float: none;
+}
+#voorgerechten{
+    width: 100%;
+    float: none;
+}
+#nagerechten{
+    width: 100%;
+    float: none;
+}
+
+#banner {
+    width: 96%;  
+    float: none;
+    margin: 0 auto;
+
+}
+
+#banner .search {
+    position: relative;
+    float: right;
+    padding-right: 0;
+    height: 40px;
+}
+
+
+.search-button #button2 {
+    position: absolute;
+    float: right;
+    padding-right: 0;
+}
+}

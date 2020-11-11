@@ -2,107 +2,188 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8" />
-  <title> Mediterraan Recepten website </title>
+    <meta charset="UTF-8" />
+    <meta name="description"
+        content="Op een onze site kunt u kiezen uit honderden recepten uit de mediterraanse keuken.">
+    <meta name="keywords" content="mediterraan, gerechten, recepten">
+    <meta name="author" content="Marcel Anthonio">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Mediterraantje.nl | Haal de zomer in huis met een mediterraanse gerecht!</title>
 </head>
 
 <body>
 
-  <!-- navigation-->
-  <nav>
-    <ul>
-      <li><a href="#">Home</a></li>
-      <li><a href="#">About</a></li>
-      <li><a href="#">Blog</a></li>
-      <li><a href="#">Sign Up</a></li>
-    </ul>
-  </nav>
-
-
-  <!-- header main-->
-  <hr hr style="height:3px;border:none;background-color:rgb(201, 201, 201);">
-  <img src="https://autocook-app.com/resources/images/recipe_96736_1200x250.jpg?v=1522244000" width="100%"
-    alt="Spaanse cake">
-  <hr hr style="height:3px;border:none;background-color:rgb(201, 201, 201);">
-
-  <!--main-->
-  <main>
-    <header>
-      <h1>Mediterraan Recepten</h1>
+    <!-- main-header -->
+    <header id="main-header">
+        <div class="container">
+            <div id="logo">
+                <img src="images/mediterraantje02.png" alt="mediterraantje">
+                <!-- <h1>MEDITERRAANTJE</h1> -->
+            </div>
+        </div>
     </header>
 
-    <!--article-->
-    <article>
-      <header>
-        <h2>Spaanse cake met gecondenseerde melk en citroen</h2>
-        <p>By Marcel Anthonio.<i> Gepubliceerd op
-            <time datetime="2020-11-11 15:00-0800">Oktober 1</time></i>
-        </p>
-      </header>
-      <p>Dit is een low-carb versie van de typische Spaanse citroen cake (“bizcocho”). Deze cake wordt veel gegeten bij
-        de “merienda”. Dat is de tijd van de dag, ongeveer om 17:00, wanneer je iets zoets eet in Spanje.</p>
+    <!-- navigation-->
+    <div class="navigation">
+        <div class="container">
+            <nav id="navbar">
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="over.html">OVER ONS </a></li>
+                    <li><a href="#">RECEPTEN</a></li>
+                    <li><a href="#">BLOG</a></li>
+                    <li><a href="#">CONTACT</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
 
-      <!--section-->
-      <section>
-        <header>
-          <h2>DE BENODIGDHEDEN:</h2>
-        </header>
-        <ul>
-          <li>400 gr dikke zoete gecondenseerde melk</li>
-          <li>4 eieren</li>
-          <li>Komkommer</li>
-          <li>70 gr boter op kamertemperatuur</li>
-          <li>1 onbespoten citroen</li>
-          <li>125 gr bloem</li>
-          <li>1 zakje bakpoeder</li>
-        </ul>
-        <h3>Tips en handigheidjes</h3>
-        <p>Haal de boter ongeveer 20 minuten voordat u gaat beginnen uit de ijskast.</p>
 
-        <h3>Keuken gereedschap</h3>
-        <p>Maak gebruik van en spatel en roerstaafmixer.</p>
-      </section>
+    <!-- showcase -->
+    <div id="bigshowcase">
+        <div id="showcase">
+            <div class="container">
+                <header>
+                    <h1>Op zoek naar de lekkerste mediterraanse gerechten? </h1>
+                </header>
+                <form>
+                    <div class="my-search">
+                        <input type="search" id="searching" name="search" placeholder="ZOEKEN">
+                    </div>
+                    <div class="my-meal">
+                        <select id="meals" name="mealSelect">
+                            <option disabled selected>MAALTIJDEN</option>
+                            <option>Mediterraan maaltijden</option>
+                        </select>
+                    </div>
+                    <div class="my-dishes">
+                        <select id="dishes" name="dishesSelect">
+                            <option disabled selected>GERECHTEN</option>
+                            <option>Spaanse cake met citroen</option>
+                        </select>
+                    </div>
+                    <div class="send-button">
+                        <input class="button" id="send" type="submit" value="VERZENDEN" name="">
+                    </div>
+                </form>
 
-      <header>
-        <h3>Wilt u meer weten over de bereiding van dit overheerlijke gerecht? <a href="about.html" target="_self"> klik
-            dan hier</a></h3>
-      </header>
+            </div>
+        </div>
+    </div>
 
-      <!--articel footer-->
-      <footer>
-        <p>Dit artikel is geschreven door iemand op www.wincacademy.nl, wat
-          een behoorlijk goede plek is om te leren hoe je een webontwikkelaar kunt worden.</p>
-        <address>
-          Voor vragen over dit artikel kunt u contact opnemen met <a href="mailto:marcel.spaan@gmail.com">Marcel
-            Anthonio.</a>
-        </address>
-      </footer>
+    <!--sidebar-->
+    <div class="container">
+        <aside id="sidebar">
+            <header class="sidebar-header">
+                <h1>Het nieuwste weekmenu</h1>
+            </header>
 
-      <!--sidebar-->
-      <aside class="sidebar">
-        <h4>Overheerlijke Mediterraan Recepten</h4>
-        <p>Op een onze site kunt u kiezen uit honderden recepten uit de mediterraanse keuken. Probeer ze nu allemaal
-          gratis uit.</p>
-        <nav>
-          <h4>De populairste gerechten van dit moment</h4>
-          <ul>
-            <li><a href="#">Me­di­ter­raan vi­s­pan­ne­tje</a></li>
-            <li><a href="#">Ge­vul­de to­ma­ten met me­di­ter­ra­ne fi­lets</a></li>
-            <li><a href="#">Pen­ne met to­ma­ten-pa­pri­kasaus</a></li>
-            <li><a href="#">Spa­ghet­ti met Va­less en pijn­boom­pit­ten</a></li>
-            <li><a href="#">Me­di­ter­raan ge­hakt­brood</a></li>
-          </ul>
-        </nav>
-      </aside>
+            <header>
+                <h3>De lekkerste voorgerechten</h3>
+            </header>
 
-    </article>
+            <ul>
+                <li><a href="#">Me­di­ter­raan vi­s­pan­ne­tje</a></li>
+                <li><a href="#">Ge­vul­de to­ma­ten met me­di­ter­ra­ne fi­lets</a></li>
+                <li><a href="#">Pen­ne met to­ma­ten-pa­pri­kasaus</a></li>
+                <li><a href="#">Spa­ghet­ti met Va­less en pijn­boom­pit­ten</a></li>
+                <li><a href="#">Me­di­ter­raan ge­hakt­brood</a></li>
+            </ul>
+
+            <header>
+                <h3>De zoetste nagerechten </h3>
+            </header>
+            <ul>
+                <li><a href="#">Me­di­ter­raan vi­s­pan­ne­tje</a></li>
+                <li><a href="#">Ge­vul­de to­ma­ten met me­di­ter­ra­ne fi­lets</a></li>
+                <li><a href="#">Pen­ne met to­ma­ten-pa­pri­kasaus</a></li>
+                <li><a href="#">Spa­ghet­ti met Va­less en pijn­boom­pit­ten</a></li>
+                <li><a href="#">Me­di­ter­raan ge­hakt­brood</a></li>
+            </ul>
+        </aside>
+
+        <!--main content-->
+        <section id="main">
+            <header>
+                <h1>Welkom bij Mediterraantje! </h1>
+                <h2>De lekkerste gerechten met een mediterraanse smaak!</h2>
+            </header>
+
+            <p>Op een onze site kunt u kiezen uit honderden recepten uit de mediterraanse keuken.
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Incidunt, eveniet id adipisci
+                possimus fuga pariatur exercitationem ducimus quae ipsa molestiae odio, perferendis
+                modi nostrum temporibus doloribus inventore sequi illum vitae.</p>
+
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Incidunt, eveniet id adipisci
+                possimus fuga pariatur exercitationem ducimus quae ipsa molestiae odio, perferendis
+                modi nostrum temporibus doloribus inventore sequi illum vitae.</p>
+        </section>
+
+        <section class="blocks">
+            <div id="hoofdgerechten">
+                <header id="hoofd">
+                    <h3>HOOFDGERECHTEN</h3>
+                </header>
+                <img src="images/spatel.png" alt="spatel" class="keukengerei" id="spatel">
+                <img src="images/hoofdgerecht.jpg" alt="hoofdgerecht" class="center">
+                <p>Lorem ipsum dolor sit amet consectetur
+                    adipisicing elit veritatis atque et sequi.</p>
+            </div>
+
+            <div id="voorgerechten">
+                <header id="voor">
+                    <h3>VOORGERECHTEN</h3>
+                </header>
+                <img src="images/deegroller.png" alt="deegroller" class="keukengerei">
+                <img src="images/voorgerecht.jpg" alt="voorgerecht" class="center">
+                <p>Lorem ipsum dolor sit amet consectetur
+                    adipisicing elit veritatis atque et sequi.</p>
+            </div>
+
+            <div id="nagerechten">
+                <header id="na">
+                    <h3>NAGERECHTEN</h3>
+                </header>
+                <img src="images/garde.png" alt="garde" class="keukengerei">
+                <img src="images/nagerecht.jpg" alt="nagerecht" class="center">
+                <p>Lorem ipsum dolor sit amet consectetur
+                    adipisicing elit veritatis atque et sequi.</p>
+            </div>
+        </section>
+    </div>
+
+    <form>
+        <section id="banner">
+            <header>
+                <h1>SCHRIJF JE HIER IN VOOR ONZE NIEUWSBRIEF!</h1>
+            </header>
+            <div class="search"> <label class="search-select" name="searchselect"></label>
+                <input type="search-label" id="label" name="search-label" placeholder="JOUW E-MAILADRES"></div>
+            <div class="search-button"><input class="button2" type="submit-2" value="VERZENDEN" name=""></div>
+        </section>
+    </form>
 
     <!--footer main-->
-    <footer>
-      <p>&copy; 2020 mediterraanrecepten.nl</p>
+    <footer class="main-footer">
+        <div class="container">
+            <div id="copy">
+                <p>&copy; 2020 <a href="https://mediterraantje.nl">mediterraantje.nl</a></p>
+            </div>
+
+            <div id="social">
+                <!-- Add font awesome icons -->
+                <a href="https://facebook.com/mediterraantje" class="fa fa-facebook"></a>
+                <a href="https://twitter.com/mediterraantje" class="fa fa-twitter"></a>
+                <a href="https://linkedin.com/mediterraantje" class="fa fa-linkedin"></a>
+            </div>
+        </div>
     </footer>
 
-  </main>
+
+
+
 </body>
 
 </html>
