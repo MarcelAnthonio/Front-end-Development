@@ -136,65 +136,67 @@ blockquote{
   
 }
 
-#showcase .my-search{
+.my-firstname{
     position: relative;
     float: left;
-    width: 40%;
+    width: 20%;
     padding: 5px;
-    margin: 10px;
-    background-color: #fff;
+    margin: 5px;
     
 }
 
-#searching{
+#firstname{
     width: 100%;
     border: 0px solid #000;
     text-align: center;
+    font-size: 18px;
+    height: 50px;
 
 }
 
-#showcase .my-meal{
+.my-lastname{
     position: relative;
     float: left;
-    width: 18%;
+    width: 20%;
+    padding: 5px;
+    margin: 5px;
+
+}
+
+#lastname{
+    width: 100%;
+    border: 0px solid #000;
+    text-align: center;
+    font-size: 18px;
+    height: 50px;
+}
+
+.my-email{
+    position: relative;
+    float: left;
+    width: 20%;
     padding: 5px;
     margin: 5px;
     text-align: left;
 }
 
-.my-meal #meals{
+#e-mailadres{
     width: 100%;
     border: 0px solid #000;
     text-align: center;
-    min-height: 35px;
-}
-
-#showcase .my-dishes{
-    position: relative;
-    float: left;
-    width: 18%;
-    padding: 5px;
-    margin: 5px;
-    text-align: left;
-}
-
-.my-dishes #dishes{
-    width: 100%;
-    border: 0px solid #000;
-    text-align: center;
-    min-height: 35px;
+    height: 50px;
+    font-size: 18px;
 }
 
 #showcase .button{
     position: relative;
     float: left;
     background-color: rgb(252, 82, 21);
-    min-height: 35px;
     font-weight: bold;
     color: #fff;
     text-align: center;
     cursor: pointer;
-    margin: 10px 0 0 10px;
+    margin: 27px 0 0 10px;
 }
 
 input[type=submit]:hover {
@@ -202,9 +204,11 @@ input[type=submit]:hover {
 }
 
 .send-button #send{
+    width: 10%;
     border: 0px solid #000;
     text-align: center;
-    width: 120px;
+    height: 50px;
+    font-size: 18px;
 }
 
 
