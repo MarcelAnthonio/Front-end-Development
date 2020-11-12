@@ -35,78 +35,88 @@ blockquote{
 }
 
 .container{
-    width: 90%;
+    width: 95%;
     margin: 0 auto;
     overflow: hidden;
 }
 
 /* main-header */
-#main-header{
+.main-header{
     background-color: coral;
     width: 100%;
 
 
 }
 
-#logo img{
-    width:30%;
-    padding: 3px;
+.logo img{
+    position: relative;
+    float: left;
+    width:21%;
+    padding: 15px;
 }
 
-.navigation{
- /*   position: relative;
+.main-header .navigation{
+    position: relative;
     float: right;
-    padding-right: 60px;
-    width: 100%;*/
-    background-color: #333;
+    width: 70%;
+    margin-top:65px;
+ /*   background-color: #333;
     border-top: 1px solid #fff;
-    box-shadow: 5px 10px 8px #0000005e;
+    box-shadow: 5px 10px 8px #0000005e;*/
 }
 
 /* navigation*/
 
-#navbar{
-    width: 100%;
-    font-size: 20px;
-    float: left;
+.navbar{
+    position: relative;
+    float: right;
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width:60%;
+    font-style: normal;
+    letter-spacing: 0em;
+    text-transform: uppercase;
+    line-height: 1.8em;
+
 
 }
 
-#navbar li{
+.navbar li{
     position: relatives;
     display: block;
 }
 
-#navbar a{
+.navbar a{
+    font-size: 20px;
     float: left;
-    padding: 10px 0;
-    text-decoration: none;
-    text-align: center;
-    margin-top: 0;
-    margin-bottom: 5px;
-    margin-left: 0; 
-    margin-right: 25px;
-    width: 120px;
+
+    margin-right: 35px;
+
+
 }
 
-#navbar a:hover {
-    color: #fff;
-    background-color: coral;
-    width: 120px;
+.navbar a:hover {
+    color: darkgrey;
     text-align: center;
-
- 
 }
+
+.navbar a:active {
+    color:  rgb(104, 47, 0);
+    text-align: center;
+    text-decoration: underline;
+}
+
 
 /* showcase */
 
 .bigshowcase{
     background-image: url('../images/Lebanese-Cuisine.jpg');
-    background-position: center right;
+    background-position: center 70%;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 500px;
-
+    height: 450px;
+    opacity: 0.8;
+    padding: 25px;
 
 }
 
@@ -121,9 +131,8 @@ blockquote{
 }
 
 .showcase{
-    width: 55%;
+    width: 50%;
 margin: 0 auto;
-
 }
 
 .bigshowcase h1{
@@ -132,16 +141,18 @@ margin: 0 auto;
     text-shadow: 0 3px 5px coral; 
     font-size: 60px;
     font-weight: bolder;
-    line-height: 1.0em;
+    line-height: 1.3em;
     text-align: center;
+    width: 55%;
+    margin: 30px auto;
 }
 
-.bigshowcase h3{
+.bigshowcase p{
 
     color: #fff;
     text-shadow: 1px 1px #000; 
-    font-size: 28px;
-    font-weight: normal;
+    font-size: 26px;
+    font-weight: lighter;
     line-height: 1.0em;
     text-align: center;
 }
@@ -161,7 +172,6 @@ margin: 0 auto;
     text-align: center;
     font-size: 18px;
     height: 50px;
-
 }
 
 .my-lastname{
@@ -205,7 +215,7 @@ margin: 0 auto;
     font-weight: bold;
     color: #fff;
     cursor: pointer;
-    margin: 27px 0 0 10px;
+    margin: 37px 0 0 10px;
     width: 15%;
 }
 
@@ -216,10 +226,69 @@ input[type=submit]:hover {
 .send-button #send{
     border: 0px solid #000;
     text-align: center;
-    height: 50px;
+    height: 51px;
     font-size: 18px;
 }
 
+
+/* banner */
+
+.banner{
+    margin: 0 auto;
+    background-color: rgb(2, 111, 11);
+    height: 200px;
+    padding: 25px;
+    text-align: center;
+    color: #fff;
+    width: 95%;
+}
+
+.banner-showcase{
+    width: 50%;
+    margin: 0 auto;
+}
+
+.banner-my-email{
+    position: relative;
+    float: left;
+width: 100%;
+    padding: 5px;
+    margin: 5px;
+    text-align: left;
+}
+
+#banner-emailadres{
+    width: 60%;
+    position: relative;
+    float: left;
+    border: 0px solid #000;
+    text-align: center;
+    height: 50px;
+    font-size: 18px;
+    margin-right: 50px;
+}
+
+.banner .button{
+    position: relative;
+    float: left;
+    background-color: rgb(252, 82, 21);
+    font-weight: bold;
+    color: #fff;
+    cursor: pointer;
+    width: 30%;
+}
+
+input[type=submit]:hover {
+    background-color: #fca686;
+}
+
+.banner-send-button #banner-send{
+    border: 0px solid #000;
+    text-align: center;
+    height: 51px;
+    font-size: 18px;
+
+}
 
 /* main content */
 #main{
