@@ -16,16 +16,28 @@
 <body>
 
     <!-- main-header -->
-    <header id="main-header">
+    <header class="main-header">
         <div class="container">
-            <div id="logo">
+            <div class="logo">
                 <img src="images/mediterraantje02.png" alt="mediterraantje">
                 <!-- <h1>MEDITERRAANTJE</h1> -->
+            </div>
+            <div class="navigation">
+                <nav class="navbar">
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="#">RECEPTEN</a></li>
+                        <li><a href="#">MENUGANGEN</a></li>
+                        <li><a href="#">BLOG</a></li>
+                        <li><a href="over.html">OVER ONS </a></li>
+                        <li><a href="#">CONTACT</a></li>
+                    </ul>
+                </nav>
             </div>
         </div>
     </header>
 
-    <!-- navigation-->
+    <!-- navigation
     <div class="navigation">
         <div class="container">
             <nav id="navbar">
@@ -38,13 +50,15 @@
                 </ul>
             </nav>
         </div>
-    </div>
+    </div>-->
+
+
     <!-- showcase -->
     <div class="bigshowcase">
         <div class="container">
             <header>
                 <h1>Op zoek naar de lekkerste mediterraanse gerechten? </h1>
-                <h3>Ontvang elke twee weken de gratis nieuwsbrief met de nieuwste recepten en tips</h3>
+                <p>Ontvang elke twee weken de gratis nieuwsbrief met de nieuwste recepten en tips</p>
             </header>
             <div class="showcase">
                 <form name="newsletter" method="post" data-netlify="true">
@@ -178,7 +192,50 @@
         </section>
     </div>
 
-    <form name="nieuwsbrief" method="post" data-netlify="true">
+    <!--    <div class="container">
+        <section class="banner">
+            <form name="nieuwsbrief" method="post" data-netlify="true">
+
+                <header>
+                    <h1>SCHRIJF JE HIER IN VOOR ONZE NIEUWSBRIEF!</h1>
+                </header>
+                <div class="my-banner">
+                    <p><input type="email" name="banner-emailadres" placeholder="E-mailadres" /></p>
+                </div>
+                <div class="my-banner-button">
+                    <input class="button" name="banner-send" type="submit" value="Aanmelden">
+                </div>
+            </form>
+        </section>
+    </div>-->
+
+    <div class="banner">
+        <div class="container">
+            <header>
+                <h1>SCHRIJF JE HIER IN VOOR ONZE NIEUWSBRIEF!</h1>
+                <p>Ontvang elke twee weken de gratis nieuwsbrief met de nieuwste recepten en tips</p>
+            </header>
+            <div class="banner-showcase">
+                <form name="banner-newsletter" method="post" data-netlify="true">
+                    <!--<div class="my-firstname">
+                        <p><input type="text" name="firstname" id="firstname" placeholder="Voornaam" /></p>
+                    </div>
+                    <div class="my-lastname">
+                        <p><input type="text" name="lastname" id="lastname" placeholder="Achternaam" /></p>
+                    </div>-->
+                    <div class="banner-email">
+                        <p><input type="email" name="emailadres" id="banner-emailadres" placeholder="E-mailadres" />
+                        </p>
+                    </div>
+                    <div class="banner-send-button">
+                        <input class="button" id="banner-send" type="submit" value="Aanmelden" name="">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!--<form name="nieuwsbrief" method="post" data-netlify="true">
         <section id="banner">
             <header>
                 <h1>SCHRIJF JE HIER IN VOOR ONZE NIEUWSBRIEF!</h1>
@@ -187,7 +244,7 @@
                 <input type="search-label" id="label" name="search-label" placeholder="JOUW E-MAILADRES"></div>
             <div class="search-button"><input class="button2" type="submit-2" value="VERZENDEN" name=""></div>
         </section>
-    </form>
+    </form>-->
 
     <!--footer main-->
     <footer class="main-footer">
