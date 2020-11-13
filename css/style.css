@@ -539,6 +539,12 @@ input[type=submit]:hover {
 
 }
 
+.hidden{
+    display: none;
+}
+
+
+
 /* sidebar over ons*/
 #sidebar2{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
