@@ -484,20 +484,20 @@ line-height: 1.4em;
 
 
 
-.my-contactform{
+.contactformulier{
     padding: 20px;
     border: 0px;
 
 }
 
-.my-contactform .contactform-group{
+.contactformulier .contactform-group{
     padding-bottom:15px;
 
 }
 
 
 
-.my-contactform input[type="text"], .my-contactform textarea{
+.contactformulier input[type="text"], .contactformulier textarea{
     padding: 8px;
     width: 100%;
     height: 30px;
