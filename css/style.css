@@ -359,20 +359,20 @@ line-height: 1.4em;
 
     position: relative;
     float: left;
-    width: 70%;
+    width: 78%;
     padding-bottom: 30px;
-    padding-left: 250px;
+    padding-left: 10px;
 }
 
 #main-overons h1{
-    font-size: 28px;
+    font-size: 24px;
     font-weight: lighter;
     color: coral;
     line-height: 1.4em;
     }
 
 #main-overons h2{
-    font-size: 24px;
+    font-size: 22px;
     font-weight: lighter;
     color: coral;
 }
@@ -465,7 +465,7 @@ line-height: 1.4em;
 
 }
 
-#contact h3{
+#contact h1{
     font-size: 28px;
     font-weight: lighter;
     color: coral;
