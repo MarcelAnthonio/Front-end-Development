@@ -9,32 +9,43 @@
     <meta name="author" content="Marcel Anthonio">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="css/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Mediterraantje.nl | Haal de zomer in huis met een mediterraanse gerecht!</title>
 </head>
 
 <body>
 
+
+
     <!-- main-header -->
     <header class="main-header">
+        <div class="toggle">
+            <i class="fa-bars menu "></i>
+        </div>
         <div class="container">
+
             <div class="logo">
                 <img src="images/mediterraantje02.png" alt="mediterraantje">
                 <!-- <h1>MEDITERRAANTJE</h1> -->
             </div>
-            <div class="navigation">
-                <nav class="navbar">
-                    <ul>
-                        <li><a href="index.html">HOME</a></li>
-                        <li><a href="#">RECEPTEN</a></li>
-                        <li><a href="#">MENUGANGEN</a></li>
-                        <li><a href="#">BLOG</a></li>
-                        <li><a href="over.html">OVER ONS </a></li>
-                        <li><a href="contact.html">CONTACT</a></li>
-                    </ul>
-                </nav>
-            </div>
+
+            <nav class="navbar">
+
+                <ul>
+
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="#">RECEPTEN</a></li>
+                    <li><a href="#">MENUGANGEN</a></li>
+                    <li><a href="#">BLOG</a></li>
+                    <li><a href="over.html">OVER ONS </a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+
+            </nav>
+
+
         </div>
+
     </header>
 
     <!-- showcase -->
@@ -135,7 +146,7 @@
                 <li><a href="#">Me­di­ter­raan ge­hakt­brood</a></li>
             </ul>
         </aside>
-        <div class="menu">
+        <div class="menugangen">
             <header>
                 <h1>Menugangen</h1>
             </header>
@@ -254,6 +265,15 @@
     </footer>
 
 
+
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('.menu').click(function () {
+                $('ul').ToggleClass('active');
+            })
+        })
+    </script>
 
 
 </body>
