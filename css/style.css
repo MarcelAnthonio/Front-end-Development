@@ -651,9 +651,10 @@ input[type=submit]:hover {
 }
 
 #contact h1{
-    font-size: 28px;
+    font-size: 24px;
     font-weight: lighter;
     color: coral;
+    line-height: 1.4em;
 }
 
 #contact a{
@@ -958,13 +959,15 @@ input[type=submit]:hover {
 }
 
 .recept-footer {
-    position: absolute;
+    position: relative;
     left: 0;
     bottom: 0;
+    top: 100px;
     width: 100%;
     background-color: #333;
     color: #fff;
     text-align: left;
+
 }
 
 
@@ -1237,6 +1240,13 @@ margin:0 auto;
     float: none;
 
 }
+
+.contact-footer {
+    position: relative;
+    top: 100px;
+}
+
+
 
 /* ADD RECEPT PAGE CSS */
 
