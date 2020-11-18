@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="description"
+        content="Op een onze site kunt u kiezen uit honderden recepten uit de mediterraanse keuken.">
+    <meta name="keywords" content="mediterraan, gerechten, recepten">
+    <meta name="author" content="Marcel Anthonio">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Mediterraantje.nl | Haal de zomer in huis met een mediterraanse gerecht!</title>
+</head>
+
+<body>
+
+    <!-- main-header -->
+    <header class="main-header">
+        <div class="container">
+            <div class="logo">
+                <img src="images/mediterraantje02.png" alt="mediterraantje">
+                <!-- <h1>MEDITERRAANTJE</h1> -->
+            </div>
+            <div class="navigation">
+                <nav class="navbar">
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <div class="dropdown">
+                            <button class="dropbtn"><a href="recepten.html">RECEPTEN</a></button>
+                            <div class="dropdown-content">
+                                <li><a href="add_recept.html">RECEPT TOEVOEGEN</a></li>
+                            </div>
+                        </div>
+                        <li><a href="#">MENUGANGEN</a></li>
+                        <li><a href="#">BLOG</a></li>
+                        <li><a href="over.html">OVER ONS </a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <div class="clr"></div>
+
+    <div class="container">
+        <div id="receipt">
+            <div class="intro_recept">
+                <div class="vl"></div>
+
+                <h1>Voeg zelf een recept toe</h1>
+                <p>
+                    Heeft u een heerlijk en verrassend gerecht waarvan u het recept met anderen wilt delen?
+                    Voeg dan zelf een recept toe. De recepten worden eerst beoordeeld voor ze zichtbaar worden op de
+                    pagina. Je recept wordt onder vermedeling van jouw eigen naam, restaurant en website op onze <a
+                        href="recepten.html">recepten </a> pagina vertoond.
+                </p>
+
+                <p>
+                    Vul alle velden in die relevant zijn voor jou recept. Wees zo compleet mogelijk!
+                    Je kunt ook een foto uploaden van je gerecht. Je recept komt onder jou eigen naam op deze
+                    pagina.
+                </p>
+
+                <p> Hier vindt je een overzichtelijke handleiding om je eigen recept in 10 stappen te publiceren!
+                    <a href="#">Klik hier</a>
+                </p>
+                <hr>
+            </div>
+
+
+            <div class="receptformulier">
+                <form name="add-recept-formulier" method="post" netlify-honeypot="bot-field" data-netlify="true">
+                    <p class="hidden">
+                        <label>Don’t fill this out if you're human: <input name="bot-field" /></label>
+                    </p>
+                    <div class="voornaamform-group">
+                        <label>Voornaam: <input type="text" name="firstname"></label>
+                    </div>
+                    <div class="achternaamform-group">
+                        <label>Achternaam: <input type="text" name="lastname"></label>
+                    </div>
+
+                    <div class="emailform-group">
+                        <label>E-mail:<input type="text" name="email"></label>
+                    </div>
+
+                    <div class="telefoonform-group">
+                        <label for="phone">Telefoonnummer:
+                            <input type="tel" id="phone" name="phone" placeholder="123-45-678"
+                                pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"></label>
+                    </div>
+                    <div class="birthdayform-group">
+                        <label for="birthday">Geboortedatum:
+                            <input type="date" id="birthday" name="birthday"></label>
+                    </div>
+                    <div class="genderform-group">
+                        <label>Geslacht:</label><br>
+                        <input type="radio" id="male" name="gender" value="malle">
+                        <label for="male">Man</label><br>
+
+                        <input type="radio" id="female" name="gender" value="female">
+                        <label for="female">Vrouw</label><br>
+
+                        <input type="radio" id="other" name="gender" value="other">
+                        <label for="other">Genderneutraal</label>
+                    </div>
+
+                    <div class="cuisineform-group">
+                        <label>Favoriete keuken:</label><br>
+                        <label class="frans-group">Portugees
+                            <input type="checkbox" checked="checked">
+                            <span class="checkmark"></span>
+                        </label>
+
+                        <label class="italiaans-group">Italiaans
+                            <input type="checkbox">
+                            <span class="checkmark"></span>
+                        </label>
+
+                        <label class="spaans-group">Spaans
+                            <input type="checkbox">
+                            <span class="checkmark"></span>
+                        </label>
+
+                        <label class="arabisch-group">Arabisch
+                            <input type="checkbox">
+                            <span class="checkmark"></span>
+                        </label>
+                    </div>
+
+                    <div class="colorform-group">
+                        <label for="favcolor">Keukenschort kleur:</label><br>
+                        <input type="color" id="favcolor" name="favcolor" value="#ff0000">
+                    </div>
+
+                    <div class="berichtform-group">
+                        <label>Bericht: <textarea name="message" id="bericht"></textarea></label>
+                    </div>
+
+                    <div class="uploadform-group">
+                        <label>Upload bestand:</label><br> <input type="file" id="myFile" name="filename">
+                    </div>
+
+                    <div class="urlform-group">
+                        <label for="homepage">Website:</label><br>
+                        <input type="url" id="homepage" name="homepage">
+                    </div>
+
+                    <div class="buttonform-group">
+                        <div class="recept-send-button">
+                            <input class="button" id="recept-send" type="submit" value="VERZENDEN" name="">
+                        </div>
+
+                        <div class="recept-reset-button">
+                            <input class="button" id="recept-reset" type="reset" value="RESETTEN" name="">
+                        </div>
+                    </div>
+                </form>
+            </div>
+
+        </div>
+    </div>
+
+
+    <!--footer main-->
+    <footer class="main-footer">
+        <div class="container">
+            <div id="copy">
+                <p>&copy; 2020 <a href="https://mediterraantje.nl">mediterraantje.nl</a></p>
+            </div>
+
+            <div id="social">
+                <!-- Add font awesome icons -->
+                <a href="https://facebook.com/mediterraantje" class="fa fa-facebook"></a>
+                <a href="https://twitter.com/mediterraantje" class="fa fa-twitter"></a>
+                <a href="https://linkedin.com/mediterraantje" class="fa fa-linkedin"></a>
+            </div>
+        </div>
+    </footer>
+
+
+
+</body>
+
+</html>

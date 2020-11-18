@@ -30,6 +30,11 @@ a:active{
     color: red;
 }
 
+hr {
+    display: none;
+}
+
+
 blockquote{
     font-style: italic;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -88,18 +93,66 @@ blockquote{
 }
 
 .navbar a{
-    font-size: 20px;
+    font-size: 22px;
     margin-right: 35px;
 }
 
 .navbar a:hover {
-    color: #fff;
-    text-decoration: underline;
+    color: #5d4625;
+    text-decoration: none;
 }
 
 .navbar a:active {
     color:  rgb(252, 82, 21);
 }
+
+/* Style The Dropdown Button */
+.dropbtn {
+    background-color: coral;
+    padding: 6px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+
+    display: none;
+    position: absolute;
+    padding-left: 10px;
+    min-width: 200px;
+    
+ /* box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); */
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: #fff;
+    font-weight: 400;
+    font-size: 16px;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: coral}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropbtn {
+    background-color:coral;
+  }
 
 /* INDEX PAGE SETTINGS */
 
@@ -676,6 +729,241 @@ input[type=submit]:hover {
     text-align: left;
 }
 
+.contact-send-button #contact-send{
+    border: 0px solid #000;
+    text-align: center;
+    height: 51px;
+    font-size: 18px;
+}
+
+/* RECEPTEN PAGE SETTINGS */
+/* add recept*/
+
+#receipt{
+    position: relative;
+    float: none;
+    width: 98%;
+    margin: 0 ;
+    color: rgb(79, 78, 78);
+}
+
+.intro_recept{
+    position: relative;
+    float: left;
+    width: 52%;
+    text-align: left;
+}
+
+.intro_recept h1 {
+    font-size: 24px;
+    font-weight: lighter;
+    color: coral;
+    line-height: 1.4em;
+}
+
+.intro_recept a{
+color: coral;
+}
+
+.intro_recept a:hover{
+    color: #333;
+    }
+
+    .vl {
+        position: relative;
+        float: right;
+        width: 2%;
+        border-right: 1px solid lightgray;
+        opacity: 0.7;
+        height: 790px;
+        margin-top: 25px;
+      }
+
+.receptformulier{
+    padding-top: 20px;
+    border: 0px;
+    position: relative;
+    float: right;
+    width: 45%;
+}
+
+.receptformulier .receptform-group{
+    padding-bottom:15px;
+}
+
+.receptformulier input[type="text"], .receptformulier textarea{
+    padding: 8px;
+    width: 100%;
+    height: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.voornaamform-group {
+    position: relative;
+    float: left;
+    width: 45%;
+    padding-bottom: 10px;
+
+}
+
+.achternaamform-group {
+    position: relative;
+    float: right;
+    width: 45%;
+    padding-bottom: 10px;
+    padding-right: 15px;
+}
+
+.emailform-group {
+    position: relative;
+    float: left;
+    width: 45%;
+    padding-bottom: 10px;
+}
+
+input[type="tel"] {
+    width: 375px;
+    height: 46px;
+ 
+}
+
+.telefoonform-group {
+    position: relative;
+    float: right;
+    width: 45%;
+    padding-bottom: 15px;
+    padding-right: 15px;
+}
+
+.birthdayform-group{
+    position: relative;
+    float: left;
+    width: 45%;
+    padding-bottom: 55px;
+    padding-right: 15px;
+}
+
+.genderform-group {
+    position: relative;
+    float: right;
+    width: 45%;
+    padding-bottom: 25px;
+    padding-right: 15px;
+}
+
+.cuisineform-group {
+    position: relative;
+    float: left;
+    width: 50%;
+}
+
+.colorform-group {
+    position: relative;
+    float: right;
+    width: 45%;
+    padding-bottom: 15px;
+    padding-right: 15px;
+}
+
+.berichtform-group {
+    position: relative;
+    float: left;
+    width: 98%;
+    padding-bottom: 25px;
+}
+
+.uploadform-group {
+    position: relative;
+    float: left;
+    padding-right: 10px;
+    width: 30%;
+    padding-bottom: 150px;
+
+}
+
+.urlform-group {
+    position: relative;
+    float: right;
+    width: 50%;
+    padding-bottom: 30px;
+}
+
+input[type="url" i] {
+    position: relative;
+    width: 100%;
+    height: 45px;
+}
+
+input[type="date"] {
+    width: 375px;
+    height: 46px;
+    align-items: left;
+    display: -webkit-inline-flex;
+    font-family: monospace;
+    padding-inline-start: 0;
+    cursor: default;
+    overflow: hidden;
+    padding: 0px;
+}
+
+
+#bericht{
+    width: 100%;
+    height: 150px;
+}
+
+.buttonform-group {
+    position: absolute;
+    float: left;
+    width: 50%;
+    bottom: 0;
+}
+
+.recept-send-button .button{
+    position: relative;
+    float: left;
+    background-color: coral;
+    font-weight: bold;
+    color: #fff;
+    cursor: pointer;
+    width: 35%;
+    border: 0px solid #000;
+    text-align: center;
+    height: 45px;
+    font-size: 18px;
+
+}
+
+input[type=submit]:hover {
+    background-color: #fca686;
+}
+
+.recept-reset-button .button{
+    position: relative;
+    float: right;
+    width: 35%;
+    background-color: coral;
+    font-weight: bold;
+    color: #fff;
+    cursor: pointer;
+
+    border: 0px solid #000;
+    text-align: center;
+    height: 45px;
+    font-size: 18px;
+}
+
+input[type=submit]:hover {
+    background-color: #fca686;
+}
+
+
+
+
+
+
+
+
 
 /* @media (max-width:768px)*/
 
@@ -705,8 +993,8 @@ padding: 10px 20px;
 }
 
 .navbar ul{
-    width: 100%;
-
+width: 100%;
+text-align: center;
 }
 
 .navbar ul li{
@@ -940,6 +1228,81 @@ margin:0 auto;
 .contact-send-button .button {
     float: none;
 
+}
+
+/* ADD RECEPT PAGE CSS */
+
+.intro_recept {
+    width: 100%;
+    float: none;
+}
+
+hr {
+    width: 100%;
+    display: block;
+    border: 1px solid lightgray;
+    opacity: 0.7;
+}
+.vl {
+   display: none;
+}
+
+.receptformulier {
+    padding-top: 20px;
+    border: 0px;
+    position: relative;
+    float: right;
+    width: 100%;
+}
+
+input[type="date"] {
+    width: 215px;
+}
+
+.uploadform-group {
+    width: 100%;
+    float: none;
+    padding-bottom: 30px;
+    display: inline-block;
+}
+
+.urlform-group {
+    width: 100%;
+    float: none;
+    padding-bottom: 80px;
+}
+
+.buttonform-group {
+    float: none;
+    width: 100%;
+}
+
+.recept-send-button .button {
+    float: left;
+    width: 40%;
+}
+
+.reset-send-button .button {
+    float: none;
+    width: 45%;
+}
+
+.colorform-group {
+    padding-bottom: 65px;
+}
+
+.berichtform-group {
+    padding-bottom: 20px;
+}
+
+.dropdown-content a {
+    display: none;
+}
+
+input[type="tel"] {
+    width: 215px;
+    height: 46px;
+ 
 }
 
 }
