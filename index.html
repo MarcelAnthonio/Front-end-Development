@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="description"
+        content="Op een onze site kunt u kiezen uit honderden recepten uit de mediterraanse keuken.">
+    <meta name="keywords" content="mediterraan, gerechten, recepten">
+    <meta name="author" content="Marcel Anthonio">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <title>Mediterraantje.nl | Haal de zomer in huis met een mediterraanse gerecht!</title>
+</head>
+
+<body>
+
+    <!-- main-header -->
+    <header class="main-header">
+        <div class="container">
+
+            <!-- logo -->
+            <div class="logo">
+                <a href="index.html"><img class="animate__animated animate__fadeInDown"
+                        src="images/mediterraantje02.png" alt="mediterraantje"></a>
+                <!-- <h1>MEDITERRAANTJE</h1> -->
+            </div>
+
+            <!-- Navigation-->
+            <nav class="navbar">
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <div class="dropdown">
+                        <button class="dropbtn"><a href="recepten.html">RECEPTEN</a></button>
+                        <div class="dropdown-content">
+                            <li><a href="add_recept.html">RECEPT TOEVOEGEN</a></li>
+                        </div>
+                    </div>
+                    <li><a href="#">MENUGANGEN</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="over.html">OVER ONS </a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Header Showcase -->
+    <div class="bigshowcase">
+        <div class="container">
+            <header>
+                <h1>Op zoek naar de lekkerste mediterraanse gerechten? </h1>
+                <p>Ontvang elke twee weken de gratis nieuwsbrief met de nieuwste recepten en tips</p>
+            </header>
+            <div class="showcase">
+                <form name="newsletter" action="/index.html" method="post" data-netlify="true">
+                    <div class="my-firstname">
+                        <p><input type="text" name="firstname" id="firstname" placeholder="Voornaam" /></p>
+                    </div>
+                    <div class="my-lastname">
+                        <p><input type="text" name="lastname" id="lastname" placeholder="Achternaam" /></p>
+                    </div>
+                    <div class="my-email">
+                        <p><input type="email" name="e-mailadres" id="e-mailadres" placeholder="E-mailadres" /></p>
+                    </div>
+                    <div class="send-button">
+                        <input class="button" id="send" type="submit" value="Aanmelden" name="">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!--SIDEBAR-->
+    <div class="container">
+        <aside id="sidebar">
+
+            <!--SEARCHBAR-->
+            <div class="wrap">
+                <div class="search">
+                    <input type="text" class="searchTerm" placeholder="Zoeken">
+                    <button type="submit" class="searchButton">
+                        <i class="fa fa-search"></i>
+                    </button>
+                </div>
+            </div>
+
+            <div class="sidebar-clr"></div>
+
+            <!--POPULAIR BLOGPOSTS-->
+            <div class="p_blogpost_title">
+                <div class="l_line">
+                    <hr>
+                </div>
+                <div class="populair-title">
+                    <h1>Populair</h1>
+                </div>
+                <div class="r_line">
+                    <hr>
+                </div>
+            </div>
+
+            <!--BLOGPOSTS-->
+            <div class="populair-blog">
+                <div class="p_blogpost">
+                    <img class="animate__animated animate__fadeInLeft" width="100%" height="125px"
+                        src="https://media0.gmgroup.be/iStock-1082292822-1024x682.jpg" />
+                    <a href="#">
+                        <p>De 10 beste recepten van December</p>
+                    </a>
+                </div>
+
+                <div class="p_blogpost">
+                    <img class="animate__animated animate__fadeInRight" width="100%" height="125px"
+                        src="https://violetkookt.files.wordpress.com/2015/09/appeltaart-106-3.jpg" />
+                    <a href="#">
+                        <p>Hoe bak je de perfecte appeltaart</p>
+                    </a>
+                </div>
+                <div class="p_blogpost">
+                    <img class="animate__animated animate__fadeInLeft" width="100%" height="125px"
+                        src="https://bolblogsrackspace-axaxzmkc.netdna-ssl.com/lees/prod/images/_1838xAUTO_crop_center-center_85_none/header-interview-kookmutsjes.jpg" />
+                    <a href="#">
+                        <p>Boekreview Kookmutsjes</p>
+                    </a>
+                </div>
+
+                <div class="p_blogpost">
+                    <img class="animate__animated animate__fadeInRight" width="100%" height="125px"
+                        src="https://www.euroma.nl/content/uploads/2017/07/Kip-tikka-masala-met-geroosterde-bloemkool-en-lente-ui-pannnkoekjes_Jonnie-e1500045487651-1448x1200.jpg" />
+                    <a href="#">
+                        <p>Winterrecept: tikka masala curry</p>
+                    </a>
+                </div>
+            </div>
+
+            <!--RECEPTENWOLK-->
+            <div class="p_blogpost_title">
+                <div class="l_line">
+                    <hr>
+                </div>
+                <div class="populair-title">
+                    <h1>Receptenwolk</h1>
+                </div>
+                <div class="r_line">
+                    <hr>
+                </div>
+            </div>
+
+            <div class="receptenwolk">
+                <ul>
+                    <li><a class="size1" href="#">HERFSTRECEPTEN</a></li>
+                    <li><a class="size2" href="#">KERSTRECEPTEN</a></li>
+                    <li><a class="size3" href="#">SALADES</a></li>
+                    <li><a class="size4" href="#">SOEPEN</a></li>
+                    <li><a class="size5" href="#">TAARTRECEPTEN</a></li>
+                </ul>
+            </div>
+
+            <!--WEEKMENU-->
+            <div class="p_blogpost_title">
+                <div class="l_line">
+                    <hr>
+                </div>
+                <div class="populair-title">
+                    <h1>Weekmenu</h1>
+                </div>
+                <div class="r_line">
+                    <hr>
+                </div>
+            </div>
+
+            <div class="weekmenu">
+                <header class="sidebar-header">
+                    <h3>De lekkerste voorgerechten</h3>
+                </header>
+                <ul>
+                    <a href="#">
+                        <li>Me­di­ter­raan vi­s­pan­ne­tje</li>
+                    </a>
+                    <li><a href="#">Ge­vul­de to­ma­ten met me­di­ter­ra­ne fi­lets</a></li>
+                    <li><a href="#">Pen­ne met to­ma­ten-pa­pri­kasaus</a></li>
+                    <li><a href="#">Spa­ghet­ti met Va­less en pijn­boom­pit­ten</a></li>
+                    <li><a href="#">Me­di­ter­raan ge­hakt­brood</a></li>
+                </ul>
+            </div>
+
+            <!--TWITTER-->
+            <div class="twitter-sidebar">
+                <h1 class="panel-title"><i class="fa fa-twitter-square" aria-hidden="true"></i>
+                    Volg ons op twitter
+                </h1>
+
+                <div class="panel-body">
+                    <a class="twitter-timeline" data-theme="light" data-lang="nl" data-width="100%"
+                        href="https://twitter.com/mediterraantje?ref_src=twsrc%5Etfw">Tweets by
+                        Mediterraantje</a>
+                </div>
+                <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+            </div>
+
+            <!-- KOOKBOEK-->
+            <div class="p_blogpost_title">
+                <div class="l_line">
+                    <hr>
+                </div>
+                <div class="populair-title">
+                    <h1>Kookboek</h1>
+                </div>
+                <div class="r_line">
+                    <hr>
+                </div>
+            </div>
+
+            <div class="kookboek">
+                <a href="#"><img class="animate__animated animate__flipInY" width="100%"
+                        src="/Opdracht_07/images/banner_boek_bestelnu.jpg" /></a>
+            </div>
+        </aside>
+
+        <!--main content-->
+        <div class="welkom">
+            <header>
+                <h1>Welkom </h1>
+            </header>
+            <p>Leuk dat je onze recepten site bezoekt. Met onze recepten willen we je laten zien dat je makkelijk
+                en met weinig ingrediënten een lekkere en verrassende mediterraanse maaltijd op tafel kunt zetten.
+                Of je nou op zoek bent naar een recept voor een gezellig diner, tapas avondje, snelle maaltijd, high tea
+                of feestje.
+                Bij Mediterraantje.nl ben je altijd aan het juiste adres. Op onze site kunt u kiezen uit honderden
+                recepten uit de mediterraanse keuken om thuis in mediterrane sfeer te genieten van mooie dranken en
+                gerechten.
+            </p>
+
+            <!--CAROUSEL-->
+            <div class="carousel">
+                <div class="sfeer-banner_1">
+                    <img src="images/Lebanese-Cuisine.jpg" width="100%" height="300px" alt="sfeer">
+                </div>
+                <div class="sfeer-banner_2">
+                    <img src="images/sfeer_02.jpg" width="100%" height="300" alt="sfeer">
+                </div>
+            </div>
+        </div>
+
+
+        <!--MENUGANGEN-->
+        <div class="menugangen">
+            <header>
+                <h1>Menugangen</h1>
+            </header>
+            <p> Gezonde recepten voor elke gelegenheid. Of je nu op zoek bent naar een gezond ontbijt, een gezonde
+                salade of een gezonde sauzen en spreads. We hebben al onze favorieten voor je uitgewerkt. Niet
+                moeilijk en snel te bereiden. Al onze recepten zijn voorzien van het aantal kcal, koolhydraten,
+                eiwitten, vetten en
+                vezels.
+            </p>
+        </div>
+        <div class="gerechten">
+            <div id="hoofdgerechten">
+                <header id="gerecht-titel">
+                    <h3>Hoofdgerechten</h3>
+                </header>
+                <img src="images/spatel.png" alt="spatel" class="keukengerei animate__animated animate__fadeInDown"
+                    id="spatel">
+                <img src="images/hoofdgerecht.jpg" alt="hoofdgerecht"
+                    class="center animate__animated animate__fadeInLeft pic">
+                <p>Mediterraantje geeft jou de lekkerste hoofdgerechten recepten én
+                    handige tips. Eet smakelijk!</p>
+            </div>
+
+            <div id="voorgerechten">
+                <header id="gerecht-titel">
+                    <h3>Voorgerechten</h3>
+                </header>
+                <img src="images/deegroller.png" alt="deegroller"
+                    class="keukengerei animate__animated animate__fadeInDown">
+                <img src="images/voorgerecht.jpg" alt="voorgerecht"
+                    class="center animate__animated animate__fadeInLeft pic">
+                <p> Van echte klassiekers tot nieuwe ontdekkingen: de voorgerechten zijn stuk
+                    voor stuk om van te houden.</p>
+            </div>
+
+            <div id="nagerechten">
+                <header id="gerecht-titel">
+                    <h3>Nagerechten</h3>
+                </header>
+                <img src="images/garde.png" alt="garde" class="keukengerei animate__animated animate__fadeInDown">
+                <img src="images/nagerecht.jpg" alt="nagerecht"
+                    class="center animate__animated animate__fadeInLeft pic">
+                <p>Een mediteraan diner sluit je af met dito desserts. Welk toetje je ook kiest,
+                    een geslaagd nagerecht wordt het zeker.</p>
+            </div>
+        </div>
+
+        <!--INSTAGRAM-->
+        <div class="insta">
+            <h1 class="panel-title"><i class="fa fa-instagram" aria-hidden="true"></i>
+                Volg ons op instagram
+            </h1>
+        </div>
+
+        <div class="instagrid">
+            <div class="instagram">
+
+                <div class="photos animate__animated animate__flipInY">
+                    <img src="https://live.staticflickr.com/65535/50565652808_b9f7e1672f_z.jpg" width="320px"
+                        height="200px" alt="instagram" class="pic">
+                </div>
+
+                <div class="photos animate__animated animate__flipInY">
+                    <img src="https://live.staticflickr.com/65535/50566538902_d56cdf2f30_c.jpg" width="320px"
+                        height="200px" alt="instagram" class="pic">
+                </div>
+
+                <div class="photos animate__animated animate__flipInY">
+                    <img src="https://live.staticflickr.com/65535/50566401676_8cbe86aded_h.jpg" width="320px"
+                        height="200px" alt="instagram" class="pic">
+                </div>
+                <div class="photos animate__animated animate__flipInY">
+                    <img src="https://live.staticflickr.com/65535/50565652828_b5126cf362_c.jpg" width="320px"
+                        height="200px" alt="instagram" class="pic">
+                </div>
+            </div>
+
+            <div class="instagram">
+                <div class="photos animate__animated animate__flipInY">
+                    <img src="https://live.staticflickr.com/65535/50566401701_2be89c2e28_c.jpg" width="320px"
+                        height="200px" alt="instagram" class="pic">
+                </div>
+                <div class="photos animate__animated animate__flipInY">
+                    <img src="https://live.staticflickr.com/8348/8222888481_312f95ca7d_z.jpg" width="320px"
+                        height="200px" alt="instagram" class="pic">
+                </div>
+                <div class="photos animate__animated animate__flipInY">
+                    <img src="https://live.staticflickr.com/65535/50566401721_523202d9f1_b.jpg" width="320px"
+                        height="200px" alt="instagram" class="pic">
+                </div>
+                <div class="photos animate__animated animate__flipInY">
+                    <img src="https://live.staticflickr.com/65535/50565631613_9812ba9247_c.jpg" width="320px"
+                        height="200px" alt="instagram" class="pic">
+                </div>
+            </div>
+
+            <div class="instagram">
+                <div class="photos animate__animated animate__flipInY">
+                    <img src="https://live.staticflickr.com/65535/50566379886_5ef1fc4f08_k.jpg" width="320px"
+                        height="200px" alt="instagram" class="pic">
+                </div>
+                <div class="photos animate__animated animate__flipInY">
+                    <img src="https://live.staticflickr.com/65535/50566517197_d92a729478_z.jpg" width="320px"
+                        height="200px" alt="instagram" class="pic">
+                </div>
+                <div class="photos animate__animated animate__flipInY">
+                    <img src="https://live.staticflickr.com/65535/50566379921_a5392d04d5.jpg" width="320px"
+                        height="200px" alt="instagram" class="pic">
+                </div>
+                <div class="photos animate__animated animate__flipInY">
+                    <img src="https://live.staticflickr.com/65535/50566431661_cfb635dc7c_z.jpg" width="320px"
+                        height="200px" alt="instagram" class="pic">
+                </div>
+            </div>
+        </div>
+
+        <!--RECENCIES-->
+        <header>
+            <h1>Recensies</h1>
+        </header>
+        <div class="recensies">
+            <div class="recensie_text">
+                <p><i>Fantastische site met veel overheerlijke recepten.
+                        Geen flauwekul, maar feiten. Fijn dat jullie bestaan
+                        en fijn dat ik jullie gevonden heb</i></p>
+                <div class="rating">
+                    <div class="recensie_naam">
+                        <h5>- Mandy Smit</h5>
+                    </div>
+                    <!-- Font Awesome Icon Library -->
+                    <span class="fa fa-star checked animate__animated animate__fadeInRight"></span>
+                    <span class="fa fa-star checked animate__animated animate__fadeInRight"></span>
+                    <span class="fa fa-star checked animate__animated animate__fadeInRight"></span>
+                    <span class="fa fa-star animate__animated animate__fadeInRight"></span>
+                    <span class="fa fa-star animate__animated animate__fadeInRight"></span>
+                </div>
+            </div>
+
+            <div class="recensie_text">
+                <p><i>Bij het zoeken naar een bepaald gerecht kwam ik bij toeval terecht op Mediterraantje.nl.
+                        Wat jammer dat ik deze site niet eerder had ontdekt!</i></p>
+                <div class="rating">
+                    <div class="recensie_naam">
+                        <h5>- Hennie Huize</h5>
+                    </div>
+                    <!-- Font Awesome Icon Library -->
+                    <span class="fa fa-star checked animate__animated animate__fadeInRight"></span>
+                    <span class="fa fa-star checked animate__animated animate__fadeInRight"></span>
+                    <span class="fa fa-star checked animate__animated animate__fadeInRight"></span>
+                    <span class="fa fa-star checked animate__animated animate__fadeInRight"></span>
+                    <span class="fa fa-star"></span>
+                </div>
+            </div>
+
+
+            <div class="recensie_text">
+                <p><i>Zoveel informatie en uitgebreide uitleg en zoveel lekkere recepten.
+                        We kunnen en willen niet meer koken zonder Mediterraantje.nl.</i> </p>
+                <div class="rating">
+                    <div class="recensie_naam">
+                        <h5>- Marcel Spak</h5>
+                    </div>
+                    <!-- Font Awesome Icon Library -->
+                    <span class="fa fa-star checked animate__animated animate__fadeInRight"></span>
+                    <span class="fa fa-star checked animate__animated animate__fadeInRight"></span>
+                    <span class="fa fa-star checked animate__animated animate__fadeInRight"></span>
+                    <span class="fa fa-star animate__animated animate__fadeInRight"></span>
+                    <span class="fa fa-star animate__animated animate__fadeInRight"></span>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="recensies">
+            <div class="recensie_text">
+                <p><i>Ik ben heel enthousiast over deze site en de bijbehorende recepten.
+                        Ik kan nu zelf mijn menu's samenstellen met deze site. Echt een aanrader</i></p>
+                <div class="rating">
+                    <div class="recensie_naam">
+                        <h5>- Renate Goud</h5>
+                    </div>
+                    <!-- Font Awesome Icon Library -->
+                    <span class="fa fa-star checked animate__animated animate__fadeInRight"></span>
+                    <span class="fa fa-star checked animate__animated animate__fadeInRight"></span>
+                    <span class="fa fa-star checked animate__animated animate__fadeInRight"></span>
+                    <span class="fa fa-star checked animate__animated animate__fadeInRight"></span>
+                    <span class="fa fa-star animate__animated animate__fadeInRight"></span>
+                </div>
+            </div>
+
+            <div class="recensie_text">
+                <p><i>Op de website heb ik meerdere lekkere recepten ontdekt en geprobeerd.
+                        De website is overzichtelijk en makkelijk in gebruik. Ga zo door</i></p>
+                <div class="rating">
+                    <div class="recensie_naam">
+                        <h5>- Ingrid Boele</h5>
+                    </div>
+                    <!-- Font Awesome Icon Library -->
+                    <span class="fa fa-star checked animate__animated animate__fadeInRight"></span>
+                    <span class="fa fa-star checked animate__animated animate__fadeInRight"></span>
+                    <span class="fa fa-star checked animate__animated animate__fadeInRight"></span>
+                    <span class="fa fa-star checked animate__animated animate__fadeInRight"></span>
+                    <span class="fa fa-star animate__animated animate__fadeInRight"></span>
+                </div>
+            </div>
+
+            <div class="recensie_text">
+                <p><i>Alle recepten zijn duidelijk beschreven en makkelijk te bereiden.
+                        Deze website is echt voor iedereen leuk, jong, oud, ervaren of hobbykok.</i> </p>
+                <div class="rating">
+                    <div class="recensie_naam">
+                        <h5>- Erwin Huizers</h5>
+                    </div>
+                    <!-- Font Awesome Icon Library -->
+                    <span class="fa fa-star checked animate__animated animate__fadeInRight"></span>
+                    <span class="fa fa-star checked animate__animated animate__fadeInRight"></span>
+                    <span class="fa fa-star checked animate__animated animate__fadeInRight"></span>
+                    <span class="fa fa-star checked animate__animated animate__fadeInRight"></span>
+                    <span class="fa fa-star checked animate__animated animate__fadeInRight"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--NIEUWBRIEF BANNER-->
+    <div class="banner">
+        <div class="container">
+            <header>
+                <h1>SCHRIJF JE HIER IN VOOR ONZE NIEUWSBRIEF!</h1>
+                <p>Ontvang elke twee weken de gratis nieuwsbrief met de nieuwste recepten en tips</p>
+            </header>
+            <div class="banner-showcase">
+                <form name="banner-newsletter" action="/index.html" method="post" data-netlify="true">
+                    <div class="banner-email">
+                        <p><input type="email" name="emailadres" id="banner-emailadres" placeholder="E-mailadres" />
+                        </p>
+                    </div>
+                    <div class="banner-send-button">
+                        <input class="button" id="banner-send" type="submit" value="Aanmelden" name="">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!--FOOTER-->
+    <!--footer main-->
+    <footer class="main-footer">
+        <div class="container">
+            <div id="copy">
+                <p>&copy; 2020 <a href="https://mediterraantje.nl">mediterraantje.nl</a></p>
+            </div>
+
+            <div id="social">
+                <!-- Add font awesome icons -->
+                <a href="https://facebook.com/mediterraantje" class="fa fa-facebook"></a>
+                <a href="https://twitter.com/mediterraantje" class="fa fa-twitter"></a>
+                <a href="https://linkedin.com/mediterraantje" class="fa fa-linkedin"></a>
+            </div>
+        </div>
+    </footer>
+
+    <!--MOBILE MENU SCRIPT-->
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('.menu').click(function () {
+                $('ul').ToggleClass('active');
+            })
+        })
+    </script>
+
+
+</body>
+
+</html>
