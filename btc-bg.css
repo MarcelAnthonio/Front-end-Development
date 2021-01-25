@@ -1,0 +1,143 @@
+
+.Coins-module_Coins__Gszcf {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: transparent;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    overflow: hidden;
+    height: 100%; }
+  
+.Coins-module_Coins__Gszcf:before {
+      content: '';  
+      display: block;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 70%;
+      position: absolute;
+      z-index: 990; }
+  
+.Coins-module_Coin__gd28p {
+    position: absolute;
+    opacity: 0.7;
+    animation: Coins-module_cascade-down__3tF1a cubic-bezier(0.33333, 0, 0.66667, 0.33333);
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    background-image: url("data:image/svg+xml,%3Csvg width%3D%22140%22 height%3D%22140%22 viewBox%3D%220 0 140 140%22 xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E    %3Ctitle%3Ecoin%3C%2Ftitle%3E    %3Cg fill%3D%22none%22%3E        %3Cpath d%3D%22M137.905 86.934c-9.35 37.5-47.336 60.322-84.845 50.97-37.493-9.349-60.318-47.332-50.963-84.83 9.346-37.504 47.331-60.329 84.83-50.98 37.506 9.35 60.328 47.338 50.978 84.84z%22              fill%3D%22%23F7931A%22%2F%3E        %3Cpath d%3D%22M99.606 58.78c1.393-9.17-5.699-14.1-15.396-17.39l3.146-12.423-7.68-1.885-3.063 12.096a325.52 325.52 0 0 0-6.154-1.425l3.085-12.176-7.676-1.885-3.148 12.42a260.324 260.324 0 0 1-4.904-1.136l.008-.038-10.591-2.604-2.044 8.076s5.699 1.286 5.578 1.366c3.111.765 3.673 2.791 3.58 4.398l-3.584 14.153c.215.054.492.131.799.252-.256-.062-.53-.131-.812-.198l-5.023 19.826c-.38.93-1.345 2.326-3.52 1.796.077.11-5.582-1.372-5.582-1.372l-3.813 8.657 9.995 2.453c1.86.459 3.682.939 5.475 1.391l-3.178 12.566 7.672 1.884 3.147-12.432c2.096.56 4.13 1.077 6.121 1.564l-3.137 12.374 7.68 1.885 3.179-12.542c13.096 2.44 22.945 1.456 27.09-10.207 3.34-9.391-.166-14.808-7.057-18.34 5.018-1.14 8.798-4.39 9.807-11.103zM82.058 83.01c-2.374 9.39-18.432 4.313-23.639 3.04l4.218-16.647c5.206 1.28 21.901 3.813 19.42 13.606zm2.375-24.365c-2.166 8.542-15.531 4.202-19.867 3.138l3.824-15.098c4.336 1.064 18.298 3.05 16.043 11.96z%22              fill%3D%22%23FFF%22%2F%3E    %3C%2Fg%3E%3C%2Fsvg%3E");
+    display: block;
+    background-size: contain;
+    min-width: 25px;
+    min-height: 25px; }
+
+.Coins-module_Coin__gd28p:nth-child(1) {
+      left: 8.33%;
+      top: -100px;
+      animation-delay: 900ms;
+      animation-duration: 2.7s;
+      width: 36px;
+      height: 36px; }
+
+    .Coins-module_Coin__gd28p:nth-child(2) {
+      left: 16.66%;
+      top: -100px;
+      animation-delay: 1800ms;
+      animation-duration: 3.6s;
+      width: 30px;
+      height: 30px; }
+
+    .Coins-module_Coin__gd28p:nth-child(3) {
+      left: 24.990000000000002%;
+      top: -100px;
+      animation-delay: 3000ms;
+      animation-duration: 1.8s;
+      width: 6px;
+      height: 6px; }
+
+    .Coins-module_Coin__gd28p:nth-child(4) {
+      left: 33.32%;
+      top: -100px;
+      animation-delay: 300ms;
+      animation-duration: 1.8s;
+      width: 48px;
+      height: 48px; }
+
+    .Coins-module_Coin__gd28p:nth-child(5) {
+      left: 41.65%;
+      top: -100px;
+      animation-delay: 1500ms;
+      animation-duration: 3.6s;
+      width: 48px;
+      height: 48px; }
+
+    .Coins-module_Coin__gd28p:nth-child(6) {
+      left: 49.980000000000004%;
+      top: -100px;
+      animation-delay: 2100ms;
+      animation-duration: 2.7s;
+      width: 18px;
+      height: 18px; }
+
+    .Coins-module_Coin__gd28p:nth-child(7) {
+      left: 58.31%;
+      top: -100px;
+      animation-delay: 2700ms;
+      animation-duration: 3.6s;
+      width: 30px;
+      height: 30px; }
+
+    .Coins-module_Coin__gd28p:nth-child(8) {
+      left: 66.64%;
+      top: -100px;
+      animation-delay: 2400ms;
+      animation-duration: 2.7s;
+      width: 60px;
+      height: 60px; }
+
+    .Coins-module_Coin__gd28p:nth-child(9) {
+      left: 74.97%;
+      top: -100px;
+      animation-delay: 1500ms;
+      animation-duration: 2.7s;
+      width: 54px;
+      height: 54px; }
+
+    .Coins-module_Coin__gd28p:nth-child(10) {
+      left: 83.3%;
+      top: -100px;
+      animation-delay: 2700ms;
+      animation-duration: 3.6s;
+      width: 54px;
+      height: 54px; }
+
+    .Coins-module_Coin__gd28p:nth-child(11) {
+      left: 91.63%;
+      top: -100px;
+      animation-delay: 1800ms;
+      animation-duration: 1.8s;
+      width: 30px;
+      height: 30px; }
+
+    .Coins-module_Coin__gd28p:nth-child(12) {
+      left: 99.96000000000001%;
+      top: -100px;
+      animation-delay: 3000ms;
+      animation-duration: 2.7s;
+      width: 48px;
+      height: 48px; }
+  
+  @keyframes Coins-module_cascade-down__3tF1a {
+    0% {
+      transform: translateY(0, -4px); }
+    25% {
+      transform: translateY(0, 4vh); }
+    50% {
+      transform: translateY(0, 6vh); }
+    75% {
+      transform: translateY(0, 32vh); }
+    100% {
+      transform: translate(0, 103vh);
+      opacity: 10%; } }
