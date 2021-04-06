@@ -1,0 +1,83 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    display: inline;
+    padding-right: 20px;
+    margin-left: 0px;
+  }
+
+.navbar{
+        overflow: hidden;
+        background-color: darkblue;
+      }
+
+      /* Style the links inside the navigation bar */
+.navbar a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .navbar a:hover {
+    background-color:lightblue;
+    color: black;
+  }
+  
+  /* Style the "active" element to highlight the current page */
+  .navbar a.currentPage {
+    background-color: #6699cc;
+    color: white;
+  }
+  
+  /* Style the search box inside the navigation bar */
+  .navbar input[type=text] {
+    float: right;
+    padding: 6px;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 17px;
+    border-radius: 5px;
+    border: none;
+  }
+
+  .navbar input[type=text]:hover, .navbar input[type=text]:focus {
+    border: 3px solid #009688;
+    background-color: white;
+    color: green;
+    font-size: 20px;
+  }
+
+/* unvisited link */
+a:link {
+    color: grey;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: yellow;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: lightblue;
+    font-size: 20px;
+  }
+  
+  /* selected link */
+  .currentPage {
+    color: blue;
+  }
+
+  a:active {
+    color: red;
+    font-style: italic;
+  }
